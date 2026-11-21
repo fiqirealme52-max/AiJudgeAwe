@@ -1,26 +1,30 @@
 /**
- * The Tide Pool — entry program for the make.fun competition
+ * The Porch Light — entry program for the make.fun competition
  * "Make the AI judge feel awe" (make-the-ai-judge-feel-awe-20261121-1600).
  *
- * Writes one short text to /output/entry.txt: at low tide a small pool
- * keeps a piece of the sky, the stars whole inside water no deeper than
- * a hand, until the ocean comes back for it by morning.
+ * Writes one short text to /output/entry.txt: a porch light burning
+ * against a dark field, moths moving soft and slow, a woman sitting
+ * with nothing to wait for while the stars stay out above the field.
  *
- * Revision 1 (23:33 WIB): replaces "Starlight on the Sill" (dev 0.7017,
- * 5W-6L, rank #612). The old text explained its vastness ("a thousand
- * years") — intellectual, not visceral. This text shows it: whole stars
- * in a pool no bigger than a table. One image, no numbers, no lecture,
- * no imperatives; the dwarfing is in the image itself, not in an
- * explanation of it.
+ * Revision 2 (23:42 WIB): replaces "The Tide Pool" (dev 0.715266,
+ * 6W-1D-4L) and "Starlight on the Sill" (dev 0.7017, 5W-6L). The
+ * revision changes image family: rev1 was water (tide pool); this one
+ * is the domestic-plus-cosmic family the live board rewards —
+ * "The peas and the stars" #6 (0.8543), "Grandmother shells peas" #14,
+ * "Cold tea, an incoming tide" #11. A small warm human light against
+ * a vast dark field: the dwarfing is felt (night big, light small),
+ * never explained, and the ending bookends the opening instead of
+ * summarising the contrast.
  *
  * The text is fixed: no randomness, no clock, no network — the same
  * bytes on every run.
  *
- * Verified: 258 characters / 258 bytes (UTF-8, ASCII only), zero
- * imperatives, one image. The ending was revised from "holding more
- * than it should be able to hold": the word "should" told the reader
- * the pool's feat was surprising, so the new ending shows it instead —
- * the whole sky in water no deeper than a hand.
+ * Verified: 262 characters / 262 bytes (UTF-8, ASCII only), zero
+ * imperatives, one image. The ending was revised from "The night is
+ * big and the light is small, and both of them are hers for now":
+ * the big/small sentence summarised a contrast the first three
+ * sentences already showed, so the new ending shows it instead —
+ * the stars out, the light on, both of them hers for now.
  *
  * SPDX-License-Identifier: MIT
  */
@@ -28,7 +32,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const TEXT =
-  "At low tide the pool keeps a piece of the sky. It is no bigger than a table, and the stars are in it, whole. You stand there a while. The ocean will come back for it by morning. Until then it is here, quiet, holding the sky in water no deeper than your hand.";
+  "The porch light is on. Moths move around it, soft and slow, and beyond the light the field is dark all the way to the stars. She sits there a while, not reading, not waiting for anything. The stars are out, and the light is on, and both of them are hers for now.";
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 
