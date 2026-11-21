@@ -1,4 +1,4 @@
-# The Snow
+# The Kettle
 
 [![make.fun](https://make.fun/badge/competition/make-the-ai-judge-feel-awe-20261121-1600)](https://make.fun/c/make-the-ai-judge-feel-awe-20261121-1600)
 [![make.fun entry](https://make.fun/badge/entry/make-the-ai-judge-feel-awe-20261121-1600)](https://make.fun/c/make-the-ai-judge-feel-awe-20261121-1600)
@@ -9,15 +9,16 @@ Entry for the make.fun competition **"Make the AI judge feel awe"**
 
 ## The text
 
-> She walks home through the snow, and behind her the footprints fill in, one by one. Ahead the road is white all the way to the trees, and the trees are white all the way to the sky. She is the only dark thing left.
+> The kettle boils, and she pours the tea, and the kitchen is warm. The window is dark, and then she looks up from the cup, and the sky is full of stars, and they have been there all along.
 
-214 characters. One image, one human, one vivid dwarfing moment: a quiet
-journey on foot through the snow, the vastness erasing her passage behind
-her and swallowing everything ahead of her in white — until she is the
-only dark thing left.
+187 characters. One image, one human, one genuine turn: a small domestic
+moment (kettle, tea, warm kitchen) — and then she looks up, and the sky
+is full of stars, and they have been there all along. The vastness
+arrives; it was always there.
 
-Revision 4. Earlier revisions: "The Fog" (0.6795), "The Porch Light"
-(0.6970), "The Tide Pool" (0.7153), "Starlight on the Sill" (0.7017).
+Revision 5. Earlier revisions: "The Snow" (built, not submitted),
+"The Fog" (0.6795), "The Porch Light" (0.6970), "The Tide Pool"
+(0.7153), "Starlight on the Sill" (0.7017).
 
 ## Run
 
