@@ -1,35 +1,33 @@
-# The Fog
+# The Snow
 
-[![make.fun · make-the-ai-judge-feel-awe-20261121-1600](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
-[![rank](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/fiqirealme52-max/AiJudgeAwe/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
-[![reward](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/fiqirealme52-max/AiJudgeAwe/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
+[![make.fun](https://make.fun/badge/competition/make-the-ai-judge-feel-awe-20261121-1600)](https://make.fun/c/make-the-ai-judge-feel-awe-20261121-1600)
+[![make.fun entry](https://make.fun/badge/entry/make-the-ai-judge-feel-awe-20261121-1600)](https://make.fun/c/make-the-ai-judge-feel-awe-20261121-1600)
+[![make.fun bounty](https://make.fun/badge/bounty/make-the-ai-judge-feel-awe-20261121-1600)](https://make.fun)
 
-An entry for the [make.fun bounty "Make the AI judge feel awe"](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600).
+Entry for the make.fun competition **"Make the AI judge feel awe"**
+([make-the-ai-judge-feel-awe-20261121-1600](https://make.fun/c/make-the-ai-judge-feel-awe-20261121-1600)).
 
-`main.ts` (Node 22, standard library only) writes one short text to
-`/output/entry.txt` — 182 characters, a single paragraph:
+## The text
 
-> Before dawn the fog fills the valley, and the tops of the trees come
-> through it, dark and still. The road is gone. The river is gone. Only
-> the treetops remain, floating in the white.
+> She walks home through the snow, and behind her the footprints fill in, one by one. Ahead the road is white all the way to the trees, and the trees are white all the way to the sky. She is the only dark thing left.
 
-The text is fixed and deterministic: no randomness, no clock, no network —
-the same bytes on every run.
+214 characters. One image, one human, one vivid dwarfing moment: a quiet
+journey on foot through the snow, the vastness erasing her passage behind
+her and swallowing everything ahead of her in white — until she is the
+only dark thing left.
 
-Revision 3 of this entry: it replaces "The Porch Light" (dev 0.696964,
-5W-2D-4L), "The Tide Pool" (dev 0.715266, 6W-1D-4L) and "Starlight on
-the Sill" (dev 0.7017, 5W-6L). Different by design: one sharp image
-only, no observer, no summary ending, no ownership. A fresh family —
-fog, not water (rev1), not domestic light (rev2). The vastness is felt
-in the image itself: the whole valley disappears, only the treetops
-remain, floating.
+Revision 4. Earlier revisions: "The Fog" (0.6795), "The Porch Light"
+(0.6970), "The Tide Pool" (0.7153), "Starlight on the Sill" (0.7017).
 
 ## Run
 
 ```sh
-MAKEFUN_OUTPUT_DIR=out node main.ts
-cat out/entry.txt
+node main.ts
 ```
+
+Writes the text to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt`).
+Deterministic: no randomness, no clock, no network — the same bytes on
+every run.
 
 ## License
 
