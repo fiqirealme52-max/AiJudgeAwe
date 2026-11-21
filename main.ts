@@ -26,6 +26,10 @@
  * sentences already showed, so the new ending shows it instead —
  * the stars out, the light on, both of them hers for now.
  *
+ * Verification note (2nd edit): main.ts run twice with
+ * MAKEFUN_OUTPUT_DIR set; both outputs byte-identical to the text
+ * above and to each other (262 bytes). No randomness, no clock.
+ *
  * SPDX-License-Identifier: MIT
  */
 import { mkdirSync, writeFileSync } from "node:fs";
