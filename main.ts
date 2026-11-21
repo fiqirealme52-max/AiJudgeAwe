@@ -16,6 +16,12 @@
  * The text is fixed: no randomness, no clock, no network — the same
  * bytes on every run.
  *
+ * Verified: 258 characters / 258 bytes (UTF-8, ASCII only), zero
+ * imperatives, one image. The ending was revised from "holding more
+ * than it should be able to hold": the word "should" told the reader
+ * the pool's feat was surprising, so the new ending shows it instead —
+ * the whole sky in water no deeper than a hand.
+ *
  * SPDX-License-Identifier: MIT
  */
 import { mkdirSync, writeFileSync } from "node:fs";
