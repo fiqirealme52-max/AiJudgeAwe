@@ -1,8 +1,8 @@
 # The Kettle
 
-[![make.fun](https://make.fun/badge/competition/make-the-ai-judge-feel-awe-20261121-1600)](https://make.fun/c/make-the-ai-judge-feel-awe-20261121-1600)
-[![make.fun entry](https://make.fun/badge/entry/make-the-ai-judge-feel-awe-20261121-1600)](https://make.fun/c/make-the-ai-judge-feel-awe-20261121-1600)
-[![make.fun bounty](https://make.fun/badge/bounty/make-the-ai-judge-feel-awe-20261121-1600)](https://make.fun)
+[![make.fun · make-the-ai-judge-feel-awe-20261121-1600](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
+[![rank](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/fiqirealme52-max/AiJudgeAwe/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
+[![reward](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/fiqirealme52-max/AiJudgeAwe/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
 
 Entry for the make.fun competition **"Make the AI judge feel awe"**
 ([make-the-ai-judge-feel-awe-20261121-1600](https://make.fun/c/make-the-ai-judge-feel-awe-20261121-1600)).
