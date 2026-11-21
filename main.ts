@@ -18,5 +18,9 @@ const TEXT =
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 
-mkdirSync(OUTPUT_DIR, { recursive: true });
-writeFileSync(join(OUTPUT_DIR, "entry.txt"), TEXT, "utf8");
+function main(): void {
+  mkdirSync(OUTPUT_DIR, { recursive: true });
+  writeFileSync(join(OUTPUT_DIR, "entry.txt"), TEXT, "utf8");
+}
+
+main();
